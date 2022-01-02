@@ -1,4 +1,7 @@
 config:
+  code:
+    validate:
+      expire: 600
   request:
     iplimit:
       apis: /api/user/register/
